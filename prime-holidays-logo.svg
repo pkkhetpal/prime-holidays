@@ -12,7 +12,7 @@
 <g fill="url(#gold)" transform="translate(111 4) rotate(-12 14 12)">
   <path d="M13 0 17 10 30 17 29 20 17 17 15 29 12 30 10 17 0 22 0 19 9 12 8 4 10 3 13 10Z"/>
 </g>
-<text x="5" y="79" fill="#f8f5ee" font-family="Georgia, 'Times New Roman', serif" font-size=" sixty" font-size="59" letter-spacing="-1.2">PRIME</text>
+<text x="5" y="79" fill="#f8f5ee" font-family="Georgia, 'Times New Roman', serif" font-size="59" letter-spacing="-1.2">PRIME</text>
 <text x="211" y="79" fill="url(#gold)" font-family="Georgia, 'Times New Roman', serif" font-size="59" letter-spacing="-1.1">HOLIDAYS</text>
 <path d="M8 98 H230 M290 98 H512" fill="none" stroke="url(#gold)" stroke-width="1.7"/>
 <path d="M260 89 C246 75 231 88 246 101 C253 108 267 108 274 101 C289 88 274 75 260 89Z" fill="none" stroke="url(#gold)" stroke-width="2.8" stroke-linecap="round"/>
