@@ -17,3 +17,13 @@
 .prime-logo img{display:block;width:100%;height:auto;object-fit:contain}
 .footer .prime-logo{width:260px;min-width:260px;justify-content:center}
 @media(max-width:650px){.prime-logo{width:224px;min-width:224px}.footer .prime-logo{width:224px;min-width:224px}}
+
+/* Header alignment: navigation left, compact brand lockup at top right */
+.site-header{background:#081a35}
+.site-header .main-nav{order:1;margin-left:auto;margin-right:30px}
+.site-header .menu-toggle{order:0}
+.site-header .prime-logo{order:2;width:248px;min-width:0;max-width:28vw;flex:0 1 248px;display:flex;align-items:center;padding:0;line-height:0}
+.site-header .prime-logo img{width:100%;height:auto;max-height:72px;object-fit:contain;display:block}
+.footer .prime-logo{width:248px;min-width:0;max-width:80vw}
+@media(max-width:900px){.site-header .main-nav{margin-right:18px;gap:15px}.site-header .prime-logo{width:205px;flex-basis:205px}}
+@media(max-width:650px){.site-header .main-nav{order:3;margin:0}.site-header .menu-toggle{order:0}.site-header .prime-logo{order:2;width:190px;max-width:58vw;flex-basis:190px}.site-header{justify-content:space-between}.site-header .prime-logo img{max-height:60px}}
