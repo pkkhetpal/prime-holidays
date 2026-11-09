@@ -18,12 +18,12 @@
 .footer .prime-logo{width:260px;min-width:260px;justify-content:center}
 @media(max-width:650px){.prime-logo{width:224px;min-width:224px}.footer .prime-logo{width:224px;min-width:224px}}
 
-/* Header alignment: navigation left, compact brand lockup at top right */
-.site-header{background:#081a35}
-.site-header .main-nav{order:1;margin-left:auto;margin-right:30px}
-.site-header .menu-toggle{order:0}
-.site-header .prime-logo{order:2;width:248px;min-width:0;max-width:28vw;flex:0 1 248px;display:flex;align-items:center;padding:0;line-height:0}
-.site-header .prime-logo img{width:100%;height:auto;max-height:72px;object-fit:contain;display:block}
-.footer .prime-logo{width:248px;min-width:0;max-width:80vw}
-@media(max-width:900px){.site-header .main-nav{margin-right:18px;gap:15px}.site-header .prime-logo{width:205px;flex-basis:205px}}
-@media(max-width:650px){.site-header .main-nav{order:3;margin:0}.site-header .menu-toggle{order:0}.site-header .prime-logo{order:2;width:190px;max-width:58vw;flex-basis:190px}.site-header{justify-content:space-between}.site-header .prime-logo img{max-height:60px}}
+
+/* Use the exact logo crop from the supplied brand artwork, constrained within header */
+.site-header{display:flex;align-items:center;gap:24px;min-width:0}
+.site-header .main-nav{order:1;margin-left:auto;margin-right:24px;flex:0 1 auto}
+.site-header .prime-logo{order:2;display:block;flex:0 1 250px;width:250px;min-width:0;max-width:30vw;padding:0;line-height:0;overflow:hidden}
+.site-header .prime-logo img{display:block;width:100%;height:auto;max-height:80px;object-fit:contain}
+.footer .prime-logo{width:250px;min-width:0;max-width:80vw}
+@media(max-width:900px){.site-header{gap:14px}.site-header .main-nav{gap:14px;margin-right:10px}.site-header .prime-logo{flex-basis:210px;max-width:27vw}}
+@media(max-width:650px){.site-header{gap:8px}.site-header .main-nav{order:3;margin:0}.site-header .prime-logo{order:2;flex:0 1 175px;width:175px;max-width:52vw}.site-header .prime-logo img{max-height:55px}}
