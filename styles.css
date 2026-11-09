@@ -14,3 +14,8 @@
 .site-header .prime-logo{display:flex!important;align-items:center;justify-content:flex-end;flex:0 0 clamp(190px,23vw,252px);width:clamp(190px,23vw,252px);height:auto;min-width:0;max-width:100%;overflow:visible}
 .site-header .prime-logo-art{display:block!important;width:100%!important;height:auto!important;max-height:74px;overflow:visible}
 @media(max-width:650px){.site-header .prime-logo{flex:0 1 185px;width:185px;max-width:58vw;justify-content:flex-start}.site-header .prime-logo-art{max-height:58px}}
+
+/* Header logo rendered inline (no external image path or SVG file dependency) */
+.site-header .prime-logo{display:flex!important;align-items:center;justify-content:flex-end;flex:0 0 clamp(190px,23vw,252px);width:clamp(190px,23vw,252px);height:auto;min-width:0;max-width:100%;overflow:visible;line-height:0}
+.site-header .prime-logo-art{display:block!important;width:100%!important;height:auto!important;max-height:74px;overflow:visible}
+@media(max-width:650px){.site-header .prime-logo{flex:0 1 185px;width:185px;max-width:58vw;justify-content:flex-start}.site-header .prime-logo-art{max-height:58px}}
