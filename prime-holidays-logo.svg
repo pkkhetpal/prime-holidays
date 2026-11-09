@@ -1,23 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 150" role="img" aria-labelledby="title desc">
-  <title id="title">Prime Holidays</title>
-  <desc id="desc">Prime Holidays — Luxury Simplified</desc>
-  <defs>
-    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#f5d58a"/>
-      <stop offset=".48" stop-color="#d6a744"/>
-      <stop offset="1" stop-color="#f0c96d"/>
-    </linearGradient>
-    <filter id="soft" x="-10%" y="-10%" width="120%" height="120%">
-      <feGaussianBlur stdDeviation=".35"/>
-    </filter>
-  </defs>
-  <g fill="none" stroke="url(#gold)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M121 6l9 3-5 5 9 8-2 2-10-6-6 5-1-1 4-7-3-8z" fill="url(#gold)" stroke="none"/>
-    <path d="M14 96H212M308 96H506" opacity=".95"/>
-    <path d="M248 86c-12-13-29-2-15 10 8 7 22 7 27 0 14-12-3-23-15-10l-1 1-1-1z" stroke-width="2.8"/>
-    <path d="M34 125h34M452 125h34" stroke-width="1.5"/>
-  </g>
-  <text x="10" y="76" fill="#f8f5ed" font-family="Georgia, 'Times New Roman', serif" font-size="59" letter-spacing="-.9">PRIME</text>
-  <text x="220" y="76" fill="url(#gold)" font-family="Georgia, 'Times New Roman', serif" font-size="59" letter-spacing="-.9">HOLIDAYS</text>
-  <text x="260" y="137" fill="#f6f2e8" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="500" letter-spacing="5.1" text-anchor="middle">Luxury Simplified</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 180" role="img" aria-labelledby="t d">
+<title id="t">PRIME HOLIDAYS — Luxury Simplified</title><desc id="d">Gold airplane above the PRIME wordmark, PRIME in white, HOLIDAYS in gold, gold infinity mark between two fine rules, and Luxury Simplified below.</desc>
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f4d68f"/><stop offset=".5" stop-color="#d5a443"/><stop offset="1" stop-color="#f2c96d"/></linearGradient></defs>
+<g font-family="Georgia,'Times New Roman',serif" font-size="57" letter-spacing="-.8">
+<text x="8" y="75" fill="#f7f4ed">PRIME</text><text x="208" y="75" fill="url(#g)">HOLIDAYS</text></g>
+<path d="M122 7l12 5-7 7 11 9-3 3-12-7-8 7-2-2 5-10-4-10z" fill="url(#g)"/>
+<g fill="none" stroke="url(#g)" stroke-linecap="round" stroke-linejoin="round"><path d="M12 105H230M330 105H548" stroke-width="2"/><path d="M280 94c-13-14-31-3-17 11 9 8 25 8 34 0 14-14-4-25-17-11z" stroke-width="3"/><path d="M34 145h35M491 145h35" stroke-width="2"/></g>
+<text x="280" y="160" fill="#f7f4ed" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="500" letter-spacing="5.2">Luxury Simplified</text>
 </svg>
